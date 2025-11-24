@@ -1,4 +1,3 @@
-
 ## Problem Statement
 Implement basic string operations such as length calculation, copy, reverse, and concatenation using character single dimensional arrays without using built-in string library functions.
 
@@ -46,9 +45,9 @@ void stringConcat_tv(char str1[], char str2[]) {
 
 int main() {
     char name1_tv[100], name2_tv[100];
-    cout << "Enter first name (Indian name): ";
+    cout << "Enter first name : ";
     cin >> name1_tv;
-    cout << "Enter second name (Indian name): ";
+    cout << "Enter second name : ";
     cin >> name2_tv;
     
     cout << "\n=== String Operations Demo ===" << endl;
@@ -72,8 +71,8 @@ int main() {
 
 
 ##  Output
-Enter first name (Indian name): Arjun
-Enter second name (Indian name): Patel
+Enter first name : Arjun
+Enter second name : Patel
 
 === String Operations Demo ===
 Original Names: Arjun, Patel
@@ -82,3 +81,4 @@ Length of Patel: 5
 Copy of Arjun: Arjun
 Reverse of first name: nujrA
 Concatenation: ArjunPatel
+
