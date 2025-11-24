@@ -88,7 +88,7 @@ void generateMagicSquare_tv(int magicSquare[][10], int n) {
 
 int main() {
     int n;
-    cout << "Enter the order of magic square (Indian tradition - use odd number): ";
+    cout << "Enter the order of magic square : ";
     cin >> n;
     
     if(n % 2 == 0) {
@@ -112,7 +112,7 @@ int main() {
 
 ## Output
 
-Enter the order of magic square (Indian tradition - use odd number): 3
+Enter the order of magic square : 3
 
 Magic Square of order 3:
 2       7       6
@@ -121,3 +121,4 @@ Magic Square of order 3:
 
 Verification: This is a valid magic square!
 Magic constant: 15
+
