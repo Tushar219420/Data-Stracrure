@@ -2,7 +2,6 @@
 Write a program to input marks of n students Sort the marks in ascending order using the Quick Sort algorithm without using built-in library functions and analyse the sorting algorithm pass by pass. Find the minimum and maximum marks using Divide and Conquer (recursively).
 
 ## Code
-```cpp
 #include <iostream>
 using namespace std;
 
@@ -21,7 +20,6 @@ int partition_tv(float arr[], int low, int high) {
     for(int j = low; j < high; j++) {
         if(arr[j] < pivot) {
             i++;
-            // Swap elements
             float temp = arr[i];
             arr[i] = arr[j];
             arr[j] = temp;
@@ -100,7 +98,7 @@ int main() {
     }
     
     
-    cout << "Enter marks of " << n << " students (Indian names):" << endl;
+    cout << "Enter marks of " << n << " students :" << endl;
     for(int i = 0; i < n; i++) {
         cout << "Student " << (i+1) << " marks: ";
         cin >> marks_tv[i];
@@ -136,7 +134,7 @@ int main() {
 
 === Quick Sort with Min/Max using Divide and Conquer ===
 Enter number of students: 6
-Enter marks of 6 students (Indian names):
+Enter marks of 6 students :
 Student 1 marks: 85
 Student 2 marks: 92
 Student 3 marks: 78
@@ -165,3 +163,4 @@ Maximum Marks: 92
 Verification:
 First element (should be min): 78
 Last element (should be max): 92
+
