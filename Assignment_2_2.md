@@ -2,7 +2,6 @@
 WAP to implement Bubble sort and Quick Sort on a 1D array of Student structure (contains student_name, student_roll_no, total_marks), with key as student_roll_no. And count the number of swap performed by each method.
 
 ##  Code
-```cpp
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -51,7 +50,6 @@ int partition_tv(Student_tv students[], int low, int high, int &swapCount_tv) {
     for(int j = low; j < high; j++) {
         if(students[j].rollNo < pivot) {
             i++;
-            // Swap students
             Student_tv temp = students[i];
             students[i] = students[j];
             students[j] = temp;
@@ -93,7 +91,7 @@ int main() {
     
     for(int i = 0; i < n; i++) {
         cout << "\nStudent " << (i+1) << " Details:" << endl;
-        cout << "Name (Indian name): ";
+        cout << "Name : ";
         cin >> studentsBubble_tv[i].name;
         cout << "Roll No: ";
         cin >> studentsBubble_tv[i].rollNo;
@@ -143,27 +141,27 @@ int main() {
 Enter number of students: 5
 
 Student 1 Details:
-Name (Indian name): Arjun
+Name : Arjun
 Roll No: 25
 Total Marks: 85.5
 
 Student 2 Details:
-Name (Indian name): Priya
+Name : Priya
 Roll No: 12
 Total Marks: 92.0
 
 Student 3 Details:
-Name (Indian name): Rohit
+Name : Rohit
 Roll No: 30
 Total Marks: 78.5
 
 Student 4 Details:
-Name (Indian name): Sneha
+Name : Sneha
 Roll No: 8
 Total Marks: 88.0
 
 Student 5 Details:
-Name (Indian name): Vikram
+Name : Vikram
 Roll No: 17
 Total Marks: 91.5
 
@@ -203,3 +201,4 @@ Comparison Results:
 Bubble Sort Swaps: 7
 Quick Sort Swaps: 4
 Quick Sort is more efficient with 3 fewer swaps!
+
