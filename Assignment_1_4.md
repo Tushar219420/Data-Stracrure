@@ -2,7 +2,6 @@
 Develop a program to identify and efficiently store a sparse matrix using compact representation and perform basic operations like display and simple transpose.
 
 ##  Code
-```cpp
 #include <iostream>
 using namespace std;
 
@@ -91,7 +90,7 @@ void transposeSparseMatrix_tv(SparseMatrix_tv sparse, SparseMatrix_tv &transpose
 int main() {
     SparseMatrix_tv sparseMatrix_tv, transposeMatrix_tv;
     
-    cout << "=== Sparse Matrix Implementation (Indian Student Database) ===" << endl;
+    cout << "=== Sparse Matrix Implementation  ===" << endl;
     createSparseMatrix_tv(sparseMatrix_tv);
     
     displaySparseMatrix_tv(sparseMatrix_tv);
@@ -109,7 +108,7 @@ int main() {
 
 ## Output
 
-=== Sparse Matrix Implementation (Indian Student Database) ===
+=== Sparse Matrix Implementation  ===
 Enter number of rows: 4
 Enter number of columns: 4
 Enter number of non-zero elements: 4
@@ -147,3 +146,4 @@ Transpose Normal Matrix:
 5	0	0	0
 0	8	0	0
 0	0	3	0
+
