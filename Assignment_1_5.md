@@ -2,7 +2,6 @@
 Develop a program to compute the fast transpose of a sparse matrix using its compact (triplet) representation efficiently.
 
 ##  Code
-```cpp
 #include <iostream>
 using namespace std;
 
@@ -69,23 +68,23 @@ void fastTranspose_tv(SparseMatrix_tv sparse, SparseMatrix_tv &transpose) {
     int *rowStart_tv = new int[sparse.cols];
     int *rowTerms_tv = new int[sparse.cols];
     
-    // Initialize rowTerms to 0
+    
     for(int i = 0; i < sparse.cols; i++) {
         rowTerms_tv[i] = 0;
     }
     
-    // Count number of elements in each column
+    
     for(int i = 0; i < sparse.numElements; i++) {
         rowTerms_tv[sparse.elements[i].col]++;
     }
     
-    // Calculate starting position of each row in transpose
+   
     rowStart_tv[0] = 0;
     for(int i = 1; i < sparse.cols; i++) {
         rowStart_tv[i] = rowStart_tv[i-1] + rowTerms_tv[i-1];
     }
     
-    // Perform fast transpose
+   
     for(int i = 0; i < sparse.numElements; i++) {
         int col = sparse.elements[i].col;
         int index = rowStart_tv[col];
@@ -108,12 +107,12 @@ int main() {
     cout << "\nOriginal Sparse Matrix:" << endl;
     displaySparseMatrix_tv(sparseMatrix_tv);
     
-    // Simple transpose
+    
     simpleTranspose_tv(sparseMatrix_tv, simpleTranspose_tv);
     cout << "\nSimple Transpose:" << endl;
     displaySparseMatrix_tv(simpleTranspose_tv);
     
-    // Fast transpose
+   
     fastTranspose_tv(sparseMatrix_tv, fastTranspose_tv);
     cout << "\nFast Transpose:" << endl;
     displaySparseMatrix_tv(fastTranspose_tv);
@@ -162,4 +161,5 @@ Row	Col	Value
 Comparison:
 Simple transpose time complexity: O(n*m)
 Fast transpose time complexity: O(n + m + numElements)
+
 Fast transpose is more efficient for large sparse matrices!
