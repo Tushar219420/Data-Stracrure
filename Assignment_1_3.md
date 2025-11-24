@@ -2,7 +2,7 @@
 Implement matrix multiplication and analyse its performance using row-major vs column-major order access patterns to understand how memory layout affects cache performance.
 
 ## Code
-```cpp
+
 #include <iostream>
 #include <ctime>
 using namespace std;
@@ -32,7 +32,7 @@ void multiplyColumnMajor_tv(int mat1[][SIZE_TV], int mat2[][SIZE_TV], int res[][
 }
 
 void initializeMatrix_tv(int mat[][SIZE_TV], int n, const char* name) {
-    cout << "Initializing " << name << " with Indian student roll numbers..." << endl;
+    cout << "Initializing " << name << " w roll numbers..." << endl;
     for(int i = 0; i < n; i++) {
         for(int j = 0; j < n; j++) {
             mat[i][j] = (i*n + j + 1) % 100; // Simulating roll numbers
@@ -42,7 +42,7 @@ void initializeMatrix_tv(int mat[][SIZE_TV], int n, const char* name) {
 
 int main() {
     int n;
-    cout << "Enter size of square matrices (for performance analysis): ";
+    cout << "Enter size of square matrices : ";
     cin >> n;
     
     if(n > SIZE_TV) {
@@ -57,7 +57,7 @@ int main() {
     
     clock_t start_tv, end_tv;
     
-    // Row-major multiplication
+    
     start_tv = clock();
     multiplyRowMajor_tv(mat1_tv, mat2_tv, res_tv, n);
     end_tv = clock();
@@ -65,7 +65,7 @@ int main() {
     
     cout << "\nRow-major multiplication time: " << rowTime_tv << " seconds" << endl;
     
-    // Column-major multiplication
+    
     start_tv = clock();
     multiplyColumnMajor_tv(mat1_tv, mat2_tv, res_tv, n);
     end_tv = clock();
@@ -96,9 +96,9 @@ int main() {
 
 
 ##  Output
-Enter size of square matrices (for performance analysis): 3
-Initializing Matrix A with Indian student roll numbers...
-Initializing Matrix B with Indian student roll numbers...
+Enter size of square matrices : 3
+Initializing Matrix A  roll numbers...
+Initializing Matrix B  roll numbers...
 
 Row-major multiplication time: 0.000015 seconds
 Column-major multiplication time: 0.000018 seconds
@@ -110,3 +110,4 @@ Result matrix (first 5x5 elements):
 45      45      45
 135     135     135
 225     225     225
+
