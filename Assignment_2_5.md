@@ -2,7 +2,6 @@
 Write a program to arrange the list of employees as per the average of their height and weight by using Merge and Selection sorting method. Analyse their time complexities and conclude which algorithm will take less time to sort the list.
 
 ## Solution Code
-```cpp
 #include <iostream>
 #include <ctime>
 #include <cstring>
@@ -206,27 +205,27 @@ Enter number of employees: 5
 Enter employee details:
 
 Employee 1:
-Name (Indian name): Arjun
+Name : Arjun
 Height (cm): 175
 Weight (kg): 70
 
 Employee 2:
-Name (Indian name): Priya
+Name ): Priya
 Height (cm): 160
 Weight (kg): 55
 
 Employee 3:
-Name (Indian name): Rohit
+Name : Rohit
 Height (cm): 180
 Weight (kg): 80
 
 Employee 4:
-Name (Indian name): Sneha
+Name : Sneha
 Height (cm): 165
 Weight (kg): 60
 
 Employee 5:
-Name (Indian name): Vikram
+Name : Vikram
 Height (cm): 170
 Weight (kg): 75
 
@@ -273,3 +272,4 @@ Merge Sort is faster by 2e-06 seconds!
 Time Complexity Analysis:
 Selection Sort: O(n²) - Better for small datasets
 Merge Sort: O(n log n) - Better for large datasets
+
