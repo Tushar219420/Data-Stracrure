@@ -2,7 +2,6 @@
 Write a program using Bubble sort algorithm, assign the roll nos. to the students of your class as per their previous years result. i.e. topper will be roll no. 1 and analyse the sorting algorithm pass by pass.
 
 ##  Code
-```cpp
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -116,23 +115,23 @@ Enter number of students in class: 5
 Enter student details:
 
 Student 1:
-Name (Indian name): Arjun
+Name : Arjun
 Previous year marks: 85.5
 
 Student 2:
-Name (Indian name): Priya
+Name : Priya
 Previous year marks: 92.0
 
 Student 3:
-Name (Indian name): Rohit
+Name : Rohit
 Previous year marks: 78.5
 
 Student 4:
-Name (Indian name): Sneha
+Name : Sneha
 Previous year marks: 88.0
 
 Student 5:
-Name (Indian name): Vikram
+Name : Vikram
 Previous year marks: 91.5
 
 Initial Student Records:
@@ -140,9 +139,9 @@ Before sorting and roll number assignment
 Name		Prev Marks	Assigned Roll No
 ------------------------------------------------
 Arjun		85.5		0
-Priya		92		0
+Priya		92		    0
 Rohit		78.5		0
-Sneha		88		0
+Sneha		88		    0
 Vikram		91.5		0
 
 === Bubble Sort Pass-by-Pass Analysis ===
@@ -170,8 +169,8 @@ Final Student Records:
 After sorting and roll number assignment
 Name		Prev Marks	Assigned Roll No
 ------------------------------------------------
-Priya		92		1
-Sneha		88		2
+Priya		92		    1
+Sneha		88		    2
 Arjun		85.5		3
 Vikram		91.5		4
 Rohit		78.5		5
@@ -179,3 +178,4 @@ Rohit		78.5		5
 === Summary ===
 Topper: Priya with 92 marks (Roll No: 1)
 Lowest: Rohit with 78.5 marks (Roll No: 5)
+
