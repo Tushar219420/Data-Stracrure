@@ -2,7 +2,6 @@
 In the Second Year Computer Engineering class, there are two groups of students based on their favorite sports: Set A includes students who like Cricket. Set B includes students who like Football. Write a C++ program to represent these two sets using linked lists and perform the following operations: a) Find and display the set of students who like both Cricket and Football. b) Find and display the set of students who like either Cricket or Football, but not both. c) Display the number of students who like neither Cricket nor Football.
 
 ##  Code
-```cpp
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -304,4 +303,5 @@ Students who like either Cricket or Football, but not both:
 Enter your choice: 5
 
 Number of students who like neither Cricket nor Football: 3
+
 
