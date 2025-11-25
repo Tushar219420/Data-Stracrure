@@ -2,7 +2,6 @@
 Develop a C++ program to store and manage an appointment schedule for a single day. Appointments should be scheduled randomly using a linked list. The system must define the start time, end time, and specify the minimum and maximum duration allowed for each appointment slot. The program should include the following operations: a) Display the list of currently available time slots. b) Book a new appointment within the defined time limits. c) Cancel an existing appointment after validating its time, availability, and correctness. d) Sort the appointment list in order of appointment times. e) Sort the list based on appointment times using pointer manipulation (without swapping data values).
 
 ##  Code
-```cpp
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -348,7 +347,7 @@ Time		Status		Client
 17:30-18:0	Available	-
 
 Enter start time (in 24-hour format, e.g., 540 for 09:00): 540
-Enter client name (Indian name): Arjun
+Enter client name : Arjun
 Appointment booked for Arjun at 9:0
 
 1. Display Time Slots
@@ -361,7 +360,7 @@ Appointment booked for Arjun at 9:0
 Enter your choice: 2
 
 Enter start time (in 24-hour format, e.g., 540 for 09:00): 600
-Enter client name (Indian name): Priya
+Enter client name : Priya
 Appointment booked for Priya at 10:0
 
 1. Display Time Slots
@@ -438,4 +437,5 @@ Appointment at 9:0 cancelled successfully!
 7. Exit
 Enter your choice: 6
 Available slots: 17
+
 
