@@ -2,7 +2,6 @@
 Write a program to efficiently search a particular employee record by using Tree data structure. Also sort the data on emp­id in ascending order.
 
 ## Code
-```cpp
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -341,7 +340,7 @@ int main() {
             case 2:
                 cout << "Enter employee ID: ";
                 cin >> id;
-                cout << "Enter name (Indian name): ";
+                cout << "Enter name : ";
                 cin >> name;
                 cout << "Enter department: ";
                 cin >> department;
@@ -444,7 +443,7 @@ Employee record management system created successfully!
 12. Exit
 Enter your choice: 2
 Enter employee ID: 101
-Enter name (Indian name): Arjun
+Enter name : Arjun
 Enter department: IT
 Enter salary: 50000
 Employee Arjun (ID: 101) added successfully!
@@ -463,7 +462,7 @@ Employee Arjun (ID: 101) added successfully!
 12. Exit
 Enter your choice: 2
 Enter employee ID: 103
-Enter name (Indian name): Priya
+Enter name : Priya
 Enter department: HR
 Enter salary: 45000
 Employee Priya (ID: 103) added successfully!
@@ -482,7 +481,7 @@ Employee Priya (ID: 103) added successfully!
 12. Exit
 Enter your choice: 2
 Enter employee ID: 102
-Enter name (Indian name): Rohit
+Enter name : Rohit
 Enter department: IT
 Enter salary: 55000
 Employee Rohit (ID: 102) added successfully!
@@ -520,7 +519,7 @@ Employee Sneha (ID: 105) added successfully!
 12. Exit
 Enter your choice: 2
 Enter employee ID: 104
-Enter name (Indian name): Vikram
+Enter name : Vikram
 Enter department: HR
 Enter salary: 47000
 Employee Vikram (ID: 104) added successfully!
@@ -688,4 +687,5 @@ Enter your choice: 11
 Total employees: 4
 Preorder traversal: 101 102 104 105 
 ========================
+
 
