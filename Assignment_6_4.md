@@ -2,7 +2,6 @@
 Write a program to implement multiple queues i.e. two queues using array and perform following operations on it. A. Add Queue, B. Delete from Queue, C. Display Queue
 
 ##  Code
-```cpp
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -231,7 +230,7 @@ int main() {
             case 1:
                 cout << "Enter queue number (0-" << (NUM_QUEUES_TV - 1) << "): ";
                 cin >> queueNum;
-                cout << "Enter name (Indian name): ";
+                cout << "Enter name : ";
                 cin >> name;
                 cout << "Enter service type: ";
                 cin >> serviceType;
@@ -293,7 +292,7 @@ Queue 1: Special Services
 7. Exit
 Enter your choice: 1
 Enter queue number (0-1): 0
-Enter name (Indian name): Arjun
+Enter name : Arjun
 Enter service type: Passport
 Added to Queue 0: Arjun (Ticket #1, Service: Passport)
 
@@ -306,7 +305,7 @@ Added to Queue 0: Arjun (Ticket #1, Service: Passport)
 7. Exit
 Enter your choice: 1
 Enter queue number (0-1): 0
-Enter name (Indian name): Priya
+Enter name : Priya
 Enter service type: Visa
 Added to Queue 0: Priya (Ticket #2, Service: Visa)
 
@@ -319,7 +318,7 @@ Added to Queue 0: Priya (Ticket #2, Service: Visa)
 7. Exit
 Enter your choice: 1
 Enter queue number (0-1): 1
-Enter name (Indian name): Rohit
+Enter name : Rohit
 Enter service type: Scholarship
 Added to Queue 1: Rohit (Ticket #101, Service: Scholarship)
 
@@ -332,7 +331,7 @@ Added to Queue 1: Rohit (Ticket #101, Service: Scholarship)
 7. Exit
 Enter your choice: 1
 Enter queue number (0-1): 1
-Enter name (Indian name): Sneha
+Enter name : Sneha
 Enter service type: Loan
 Added to Queue 1: Sneha (Ticket #102, Service: Loan)
 
@@ -447,3 +446,4 @@ Pos	Ticket #	Name		Service
 1	101		Rohit		Scholarship
 2	102		Sneha		Loan
 ==============
+
