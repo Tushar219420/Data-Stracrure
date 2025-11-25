@@ -2,7 +2,6 @@
 Implementation of Singly Linked List to Manage 'Vertex Club' Membership Records. The Department of Computer Engineering has a student club named 'Vertex Club' for second, third, and final year students. The first member is the President and the last member is the Secretary. Write a C++ program to: Add/delete members (including President/Secretary), Count members, Display members, Concatenate two division lists. Also implement: reverse, search by PRN, and sort by PRN operations.
 
 ## Code
-```cpp
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -313,7 +312,7 @@ int main() {
 10. Concatenate Clubs
 11. Exit
 Enter your choice: 1
-Enter President name (Indian name): Arjun
+Enter President name : Arjun
 Enter PRN: 100
 President Arjun added successfully!
 
@@ -329,7 +328,7 @@ President Arjun added successfully!
 10. Concatenate Clubs
 11. Exit
 Enter your choice: 2
-Enter Member name (Indian name): Vikram
+Enter Member name : Vikram
 Enter PRN: 105
 Member Vikram added successfully!
 
@@ -345,7 +344,7 @@ Member Vikram added successfully!
 10. Concatenate Clubs
 11. Exit
 Enter your choice: 3
-Enter Secretary name (Indian name): Priya
+Enter Secretary name : Priya
 Enter PRN: 110
 Secretary Priya added successfully!
 
@@ -397,3 +396,4 @@ Total members: 3
 Enter your choice: 8
 Enter PRN to search: 105
 Member found: Vikram (Member)
+
