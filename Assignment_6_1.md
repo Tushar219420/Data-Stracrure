@@ -211,7 +211,7 @@ int main() {
 
         switch (choice) {
             case 1:
-                cout << "Enter patient name (Indian name): ";
+                cout << "Enter patient name : ";
                 cin >> name;
                 cout << "Enter patient age: ";
                 cin >> age;
@@ -267,7 +267,7 @@ Patients are assigned to doctors on first-come, first-served basis
 6. Clear Queue
 7. Exit
 Enter your choice: 1
-Enter patient name (Indian name): Arjun
+Enter patient name : Arjun
 Enter patient age: 25
 Enter symptoms: Fever and headache
 Patient Arjun (ID: 1000) registered successfully!
@@ -281,7 +281,7 @@ Position in queue: 1
 6. Clear Queue
 7. Exit
 Enter your choice: 1
-Enter patient name (Indian name): Priya
+Enter patient name : Priya
 Enter patient age: 30
 Enter symptoms: Stomach ache
 Patient Priya (ID: 1001) registered successfully!
@@ -295,7 +295,7 @@ Position in queue: 2
 6. Clear Queue
 7. Exit
 Enter your choice: 1
-Enter patient name (Indian name): Rohit
+Enter patient name ): Rohit
 Enter patient age: 35
 Enter symptoms: Back pain
 Patient Rohit (ID: 1002) registered successfully!
@@ -334,7 +334,7 @@ ID	Name		Specialization		Patients Assigned
 2	Dr. Patel	Cardiologist		0
 3	Dr. Gupta	Dermatologist		0
 4	Dr. Kumar	Pediatrician		0
-5	Dr. Singh	Orthopedic		0
+5	Dr. Singh	Orthopedic		    0
 =========================
 
 1. Register Patient
@@ -404,6 +404,7 @@ ID	Name		Specialization		Patients Assigned
 2	Dr. Patel	Cardiologist		1
 3	Dr. Gupta	Dermatologist		0
 4	Dr. Kumar	Pediatrician		0
-5	Dr. Singh	Orthopedic		0
+5	Dr. Singh	Orthopedic		    0
 =========================
+
 
