@@ -2,7 +2,6 @@
 Pizza parlour accepting maximum n orders. Orders are served on an FCFS basis. Order once placed can't be cancelled. Write C++ program to simulate the system using circular QUEUE.
 
 ##  Code
-```cpp
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -210,7 +209,7 @@ int main() {
 
         switch (choice) {
             case 1:
-                cout << "Enter customer name (Indian name): ";
+                cout << "Enter customer name : ";
                 cin >> customerName;
                 parlor_tv.displayMenu_tv();
                 cout << "Enter pizza choice (1-5): ";
@@ -267,7 +266,7 @@ Orders are served on First-Come, First-Served basis
 6. Display Menu
 7. Exit
 Enter your choice: 1
-Enter customer name (Indian name): Arjun
+Enter customer name : Arjun
 Enter pizza choice (1-5): 2
 Enter quantity: 2
 Order placed successfully! Order ID: 100
@@ -284,7 +283,7 @@ Position in queue: 1
 6. Display Menu
 7. Exit
 Enter your choice: 1
-Enter customer name (Indian name): Priya
+Enter customer name : Priya
 Enter pizza choice (1-5): 1
 Enter quantity: 1
 Order placed successfully! Order ID: 101
@@ -301,7 +300,7 @@ Position in queue: 2
 6. Display Menu
 7. Exit
 Enter your choice: 1
-Enter customer name (Indian name): Rohit
+Enter customer name : Rohit
 Enter pizza choice (1-5): 4
 Enter quantity: 3
 Order placed successfully! Order ID: 102
@@ -410,4 +409,5 @@ Enter your choice: 6
 4. Chicken	- Rs. 200
 5. Supreme	- Rs. 220
 ==================
+
 
