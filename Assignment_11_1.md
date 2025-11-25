@@ -2,7 +2,6 @@
 Implement a hash table with collision resolution using linear probing.
 
 ##  Code
-```cpp
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -344,3 +343,4 @@ Index	Roll No	Name		Marks	Status
 8	111	Priya		92	Occupied
 9	DELETED	DELETED		DELETED	Deleted
 ===========================
+
