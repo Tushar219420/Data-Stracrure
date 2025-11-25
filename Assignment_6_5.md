@@ -2,7 +2,6 @@
 In a call center, customer calls are handled on a first-come, first-served basis. Implement a queue system using Linked list where: Each customer call is enqueued as it arrives. Customer service agents dequeue calls to assist customers. If there are no calls, the system waits.
 
 ##  Code
-```cpp
 #include <iostream>
 #include <cstring>
 #include <ctime>
@@ -217,7 +216,7 @@ int main() {
 
         switch (choice) {
             case 1:
-                cout << "Enter customer name (Indian name): ";
+                cout << "Enter customer name : ";
                 cin >> customerName;
                 cout << "Enter phone number: ";
                 cin >> phoneNumber;
@@ -280,7 +279,7 @@ Customer calls are handled on First-Come, First-Served basis
 7. Clear Queue
 8. Exit
 Enter your choice: 1
-Enter customer name (Indian name): Arjun
+Enter customer name : Arjun
 Enter phone number: 9876543210
 Enter issue description: Internet not working
 
@@ -301,7 +300,7 @@ Position in queue: 1
 7. Clear Queue
 8. Exit
 Enter your choice: 1
-Enter customer name (Indian name): Priya
+Enter customer name : Priya
 Enter phone number: 9876543211
 Enter issue description: Billing issue
 
@@ -322,7 +321,7 @@ Position in queue: 2
 7. Clear Queue
 8. Exit
 Enter your choice: 1
-Enter customer name (Indian name): Rohit
+Enter customer name : Rohit
 Enter phone number: 9876543212
 Enter issue description: Service complaint
 
@@ -461,4 +460,5 @@ Pending calls: 0
 Total calls handled: 1
 Queue status: Empty
 =============================
+
 
