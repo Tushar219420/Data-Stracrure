@@ -2,7 +2,6 @@
 Write a program that maintains a queue of passengers waiting to see a ticket agent. The program user should be able to insert a new passenger at the rear of the queue, Display the passenger at the front of the Queue, or remove the passenger at the front of the queue. The program will display the number of passengers left in the queue just before it terminates.
 
 ##  Code
-```cpp
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -170,7 +169,7 @@ int main() {
 
         switch (choice) {
             case 1:
-                cout << "Enter passenger name (Indian name): ";
+                cout << "Enter passenger name : ";
                 cin >> name;
                 cout << "Enter destination: ";
                 cin >> destination;
@@ -225,7 +224,7 @@ Maintains a queue of passengers waiting to see a ticket agent
 6. Clear Queue
 7. Exit
 Enter your choice: 1
-Enter passenger name (Indian name): Arjun
+Enter passenger name : Arjun
 Enter destination: Mumbai
 Enter travel date (DD/MM/YYYY): 15/12/2023
 Passenger Arjun added to queue with ticket #1000
@@ -238,7 +237,7 @@ Passenger Arjun added to queue with ticket #1000
 6. Clear Queue
 7. Exit
 Enter your choice: 1
-Enter passenger name (Indian name): Priya
+Enter passenger name : Priya
 Enter destination: Delhi
 Enter travel date (DD/MM/YYYY): 16/12/2023
 Passenger Priya added to queue with ticket #1001
@@ -251,7 +250,7 @@ Passenger Priya added to queue with ticket #1001
 6. Clear Queue
 7. Exit
 Enter your choice: 1
-Enter passenger name (Indian name): Rohit
+Enter passenger name : Rohit
 Enter destination: Bangalore
 Enter travel date (DD/MM/YYYY): 17/12/2023
 Passenger Rohit added to queue with ticket #1002
@@ -359,4 +358,5 @@ Pos	Ticket #	Name		Destination		Travel Date
 7. Exit
 Enter your choice: 6
 All passengers cleared from queue!
+
 
