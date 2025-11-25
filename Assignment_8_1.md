@@ -2,7 +2,6 @@
 Write a program, using trees, to assign the roll nos. to the students of your class as per their previous years result. i.e topper will be roll no. 1
 
 ## Code
-```cpp
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -272,7 +271,7 @@ int main() {
                 break;
 
             case 2:
-                cout << "Enter student name (Indian name): ";
+                cout << "Enter student name : ";
                 cin >> name;
                 cout << "Enter previous year marks: ";
                 cin >> marks;
@@ -349,7 +348,7 @@ Student roll assignment system created successfully!
 9. Display Statistics
 10. Exit
 Enter your choice: 2
-Enter student name (Indian name): Arjun
+Enter student name : Arjun
 Enter previous year marks: 85.5
 Student Arjun added with marks 85.5
 
@@ -364,7 +363,7 @@ Student Arjun added with marks 85.5
 9. Display Statistics
 10. Exit
 Enter your choice: 2
-Enter student name (Indian name): Priya
+Enter student name : Priya
 Enter previous year marks: 92.0
 Student Priya added with marks 92.0
 
@@ -379,7 +378,7 @@ Student Priya added with marks 92.0
 9. Display Statistics
 10. Exit
 Enter your choice: 2
-Enter student name (Indian name): Rohit
+Enter student name : Rohit
 Enter previous year marks: 78.5
 Student Rohit added with marks 78.5
 
@@ -394,7 +393,7 @@ Student Rohit added with marks 78.5
 9. Display Statistics
 10. Exit
 Enter your choice: 2
-Enter student name (Indian name): Sneha
+Enter student name : Sneha
 Enter previous year marks: 88.0
 Student Sneha added with marks 88.0
 
@@ -409,7 +408,7 @@ Student Sneha added with marks 88.0
 9. Display Statistics
 10. Exit
 Enter your choice: 2
-Enter student name (Indian name): Vikram
+Enter student name : Vikram
 Enter previous year marks: 91.5
 Student Vikram added with marks 91.5
 
@@ -526,4 +525,5 @@ Name: Priya
 Marks: 92
 Roll Number: 1 (Topper gets roll no. 1)
 ========================
+
 
